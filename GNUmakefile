@@ -12,7 +12,7 @@
 # - The amrex source code should be available, supplied via AMREX_HOME.
 #
 
-BOXLIB_HOME ?= $(AMREX_HOME)
+BOXLIB_HOME = $(AMREX_HOME)
 
 BL_NOFAST=TRUE
 
