@@ -14,8 +14,8 @@
 #include <AMReX_Utility.H>
 #include <AMReX_VisMF.H>
 
-#include "drfftw_mpi.h" // Machine specific option (i.e. Jagwar)
-//#include "rfftw_mpi.h"
+#include "rfftw_mpi.h" // Machine specific option
+//#include "drfftw_mpi.h"
 
 #include "AmrDeriveSpectrum.H"
 

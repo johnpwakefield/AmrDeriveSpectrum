@@ -57,7 +57,8 @@ ifeq ($(EBASE), AmrDeriveSpectrum)
  LIBRARY_LOCATIONS += $(FFTW2_HOME)/lib
  include $(BOXLIB_HOME)/Src/Boundary/Make.package
  include $(BOXLIB_HOME)/Src/Extern/amrdata/Make.package
- LIBRARIES += -ldrfftw_mpi -ldfftw_mpi -ldrfftw -ldfftw
+ #LIBRARIES += -ldrfftw_mpi -ldfftw_mpi -ldrfftw -ldfftw
+ LIBRARIES += -lrfftw_mpi -lfftw_mpi -lrfftw -lfftw
 endif
 
 include $(BOXLIB_HOME)/Tools/GNUMake/Make.defs
